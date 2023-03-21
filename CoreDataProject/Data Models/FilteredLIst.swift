@@ -4,8 +4,9 @@
 //
 //  Created by Justin Hold on 10/16/22.
 //
-import CoreData
+
 import SwiftUI
+import CoreData
 
 enum FilterType: String {
     case beginsWith = "BEGINSWITH"

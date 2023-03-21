@@ -9,7 +9,6 @@
 import Foundation
 import CoreData
 
-
 extension Candy {
 
     @nonobjc public class func fetchRequest() -> NSFetchRequest<Candy> {

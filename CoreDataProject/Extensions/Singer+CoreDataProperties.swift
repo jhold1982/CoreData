@@ -9,7 +9,6 @@
 import Foundation
 import CoreData
 
-
 extension Singer {
 
     @nonobjc public class func fetchRequest() -> NSFetchRequest<Singer> {

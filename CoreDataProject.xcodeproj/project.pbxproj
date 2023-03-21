@@ -11,6 +11,15 @@
 		647AABD428F915EB00C6C2A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647AABD328F915EB00C6C2A3 /* ContentView.swift */; };
 		647AABD628F915EC00C6C2A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647AABD528F915EC00C6C2A3 /* Assets.xcassets */; };
 		647AABD928F915EC00C6C2A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647AABD828F915EC00C6C2A3 /* Preview Assets.xcassets */; };
+		647AABE028F9163D00C6C2A3 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647AABDF28F9163D00C6C2A3 /* DataController.swift */; };
+		647AABE328F9166500C6C2A3 /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 647AABE128F9166500C6C2A3 /* CoreDataProject.xcdatamodeld */; };
+		64B7152A28FB31F300FFF77C /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B7152628FB31F300FFF77C /* Candy+CoreDataClass.swift */; };
+		64B7152B28FB31F300FFF77C /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B7152728FB31F300FFF77C /* Candy+CoreDataProperties.swift */; };
+		64B7152C28FB31F300FFF77C /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B7152828FB31F300FFF77C /* Country+CoreDataClass.swift */; };
+		64B7152D28FB31F300FFF77C /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B7152928FB31F300FFF77C /* Country+CoreDataProperties.swift */; };
+		64B7152F28FC959F00FFF77C /* FilteredLIst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B7152E28FC959F00FFF77C /* FilteredLIst.swift */; };
+		64B7153228FC998A00FFF77C /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B7153028FC998A00FFF77C /* Singer+CoreDataClass.swift */; };
+		64B7153328FC998A00FFF77C /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B7153128FC998A00FFF77C /* Singer+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		647AABD328F915EB00C6C2A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		647AABD528F915EC00C6C2A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		647AABD828F915EC00C6C2A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		647AABDF28F9163D00C6C2A3 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		647AABE228F9166500C6C2A3 /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
+		64B7152628FB31F300FFF77C /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = "<group>"; };
+		64B7152728FB31F300FFF77C /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		64B7152828FB31F300FFF77C /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = "<group>"; };
+		64B7152928FB31F300FFF77C /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		64B7152E28FC959F00FFF77C /* FilteredLIst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredLIst.swift; sourceTree = "<group>"; };
+		64B7153028FC998A00FFF77C /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Singer+CoreDataClass.swift"; path = "CoreDataProject/@objc/Singer+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		64B7153128FC998A00FFF77C /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Singer+CoreDataProperties.swift"; path = "CoreDataProject/Extensions/Singer+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +50,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		642D2FA729C9C29900154960 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				64B7152E28FC959F00FFF77C /* FilteredLIst.swift */,
+				647AABE128F9166500C6C2A3 /* CoreDataProject.xcdatamodeld */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		642D2FA829C9C2C000154960 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				64B7152728FB31F300FFF77C /* Candy+CoreDataProperties.swift */,
+				64B7152928FB31F300FFF77C /* Country+CoreDataProperties.swift */,
+				64B7153128FC998A00FFF77C /* Singer+CoreDataProperties.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		642D2FA929C9C31900154960 /* @objc */ = {
+			isa = PBXGroup;
+			children = (
+				64B7152628FB31F300FFF77C /* Candy+CoreDataClass.swift */,
+				64B7152828FB31F300FFF77C /* Country+CoreDataClass.swift */,
+				64B7153028FC998A00FFF77C /* Singer+CoreDataClass.swift */,
+			);
+			path = "@objc";
+			sourceTree = "<group>";
+		};
 		647AABC528F915EB00C6C2A3 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +100,10 @@
 			children = (
 				647AABD128F915EB00C6C2A3 /* CoreDataProjectApp.swift */,
 				647AABD328F915EB00C6C2A3 /* ContentView.swift */,
+				647AABDF28F9163D00C6C2A3 /* DataController.swift */,
+				642D2FA729C9C29900154960 /* Data Models */,
+				642D2FA829C9C2C000154960 /* Extensions */,
+				642D2FA929C9C31900154960 /* @objc */,
 				647AABD528F915EC00C6C2A3 /* Assets.xcassets */,
 				647AABD728F915EC00C6C2A3 /* Preview Content */,
 			);
@@ -138,6 +189,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				647AABD428F915EB00C6C2A3 /* ContentView.swift in Sources */,
+				64B7152A28FB31F300FFF77C /* Candy+CoreDataClass.swift in Sources */,
+				647AABE028F9163D00C6C2A3 /* DataController.swift in Sources */,
+				64B7152F28FC959F00FFF77C /* FilteredLIst.swift in Sources */,
+				64B7153328FC998A00FFF77C /* Singer+CoreDataProperties.swift in Sources */,
+				64B7152B28FB31F300FFF77C /* Candy+CoreDataProperties.swift in Sources */,
+				64B7152D28FB31F300FFF77C /* Country+CoreDataProperties.swift in Sources */,
+				64B7152C28FB31F300FFF77C /* Country+CoreDataClass.swift in Sources */,
+				64B7153228FC998A00FFF77C /* Singer+CoreDataClass.swift in Sources */,
+				647AABE328F9166500C6C2A3 /* CoreDataProject.xcdatamodeld in Sources */,
 				647AABD228F915EB00C6C2A3 /* CoreDataProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,13 +327,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoreDataProject/Preview Content\"";
+				DEVELOPMENT_TEAM = N8877H53MP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -281,9 +343,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lefthandedapps.CoreDataProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -295,13 +360,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoreDataProject/Preview Content\"";
+				DEVELOPMENT_TEAM = N8877H53MP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,9 +376,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lefthandedapps.CoreDataProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -337,6 +407,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		647AABE128F9166500C6C2A3 /* CoreDataProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				647AABE228F9166500C6C2A3 /* CoreDataProject.xcdatamodel */,
+			);
+			currentVersion = 647AABE228F9166500C6C2A3 /* CoreDataProject.xcdatamodel */;
+			path = CoreDataProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 647AABC628F915EB00C6C2A3 /* Project object */;
 }
